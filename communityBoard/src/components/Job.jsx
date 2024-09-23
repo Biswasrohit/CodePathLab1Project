@@ -1,10 +1,15 @@
 import React from "react";
 
 // Job component to display job information in a card
-const Job = ({ title, company, location, type }) => {
+const Job = ({ title, company, location, type, image, link }) => {
   return (
     <div className="job-card">
-      <h3>{title}</h3>
+      <img src={image} alt={title} className="job-image" />
+      <h3>
+        <a href={link} target="_blank" rel="noopener noreferrer">
+          {title}
+        </a>
+      </h3>
       <p>
         <strong>Company:</strong> {company}
       </p>
