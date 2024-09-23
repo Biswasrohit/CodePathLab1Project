@@ -1,9 +1,17 @@
 body {
   margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
 }
 
 th {
@@ -22,6 +30,8 @@ td {
 
 .JobBoard {
   padding: 20px;
+  width: 80%;
+  margin: 20px auto;
 }
 
 .job-list {
@@ -31,18 +41,38 @@ td {
 }
 
 .job-card {
+  background-color: white;
   border: 1px solid #ddd;
+  border-radius: 8px;
   padding: 20px;
   width: 200px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3 ease;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .job-card h3 {
-  margin: 0;
+  margin: 0 0 10px 0;
   font-size: 1.2em;
+  color: #0073e6;
 }
 
 .job-card p {
-  margin: 10px 0;
+  margin: 5px 0;
   font-size: 0.9em;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .JobBoard {
+    width: 95%;
+  }
+
+  .job-card {
+    padding: 15px;
+  }
 }
