@@ -41,7 +41,7 @@ GIF created with [Kap](https://getkap.co/) for macOS
 
 Describe any challenges encountered while building the app.
 
-    The most time consuming part was styling the page. It took time to troubleshoot why the image would/wouldn't show up at times when needed. I enjoyed implementing React, however.
+The most time consuming part was styling the page. It took time to troubleshoot why the image would/wouldn't show up at times when needed. I enjoyed implementing React, however.
 
 ## License
 
