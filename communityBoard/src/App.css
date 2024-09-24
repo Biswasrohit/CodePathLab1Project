@@ -6,6 +6,10 @@
   font-family: Arial, sans-serif;
   color: black;
   background-color: #f4f4f4;
+  background-image: url("../src/images/job-board-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 body {

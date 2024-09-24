@@ -9,6 +9,8 @@ import logo5 from "../images/Splunk.png";
 import logo6 from "../images/Visa.png";
 import logo7 from "../images/Chime.png";
 import logo8 from "../images/Salesforce.png";
+import logo9 from "../images/Tesla.png";
+import logo10 from "../images/Microsoft.png";
 
 const JobBoard = () => {
   return (
@@ -79,6 +81,22 @@ const JobBoard = () => {
           type="Internship"
           image={logo8}
           link="https://simplify.jobs/p/5debd07e-1734-459b-b9f1-d45f840f95d2/Summer-2025-Intern"
+        />
+        <Job
+          title="CAE Analysis Engineer"
+          company="Tesla"
+          location="Fremont, CA"
+          type="Full-Time"
+          image={logo9}
+          link="https://www.tesla.com/careers/search/job/227283"
+        />
+        <Job
+          title="Software Engineer"
+          company="Microsoft"
+          location="Redmond, WA"
+          type="Internship"
+          image={logo10}
+          link="https://jobs.careers.microsoft.com/global/en/job/1751922/"
         />
         {/* Add more jobs here */}
       </div>
